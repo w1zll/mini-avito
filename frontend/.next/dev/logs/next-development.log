@@ -1,0 +1,4187 @@
+[00:00:02.024] Server  LOG     ✓ Ready in 1388ms
+[00:29:47.842] Server  LOG     ✓ Compiled in 40ms
+[00:30:21.002] Server  ERROR   ⨯ ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+
+
+[00:30:21.510] Browser ERROR   ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:30:21.510] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+[00:30:21.553] Server  ERROR   ⨯ ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+
+
+[00:30:22.066] Browser ERROR   uncaughtError: Error: ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:30:22.236] Browser ERROR   ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:30:22.236] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+[00:30:22.393] Browser ERROR   ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:30:22.394] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+[00:30:39.854] Browser ERROR   ./src/app/create/page.tsx:3:10
+Ecmascript file had an error
+  1 | import CreateAdForm from '@/features/create-ad/ui/CreateAdForm';
+  2 | import { RootState } from '@/shared/store/store';
+> 3 | import { useSearchParams } from 'next/navigation';
+    |          ^^^^^^^^^^^^^^^
+  4 | import { useSelector } from 'react-redux';
+  5 |
+  6 | const CreatePage = () => {
+
+You're importing a component that needs `useSearchParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:30:39.854] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+[00:30:43.850] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+[00:30:44.861] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:8:1
+Export useForm doesn't exist in target module
+   6 | import { zodResolver } from '@hookform/resolvers/zod';
+   7 | import { useMutation, useQueryClient } from '@tanstack/react-query';
+>  8 | import { useForm } from 'react-hook-form';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function CreateAdForm() {
+  11 |   const queryClient = useQueryClient();
+
+The export useForm was not found in module [project]/node_modules/react-hook-form/dist/react-server.esm.mjs [app-rsc] (ecmascript).
+Did you mean to import set?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/features/create-ad/ui/CreateAdForm.tsx
+    ./src/app/create/page.tsx
+[00:30:54.455] Server  LOG     ✓ Compiled in 960ms
+[00:30:55.062] Server  ERROR   ⨯ Error: This function is not supported in React Server Components. Please only use this export in a Client Component.
+[00:30:56.263] Browser ERROR   uncaughtError: Error: This function is not supported in React Server Components. Please only use this export in a Client Component.
+[00:30:58.757] Server  ERROR   ⨯ Error: This function is not supported in React Server Components. Please only use this export in a Client Component.
+[00:30:59.721] Browser ERROR   uncaughtError: Error: This function is not supported in React Server Components. Please only use this export in a Client Component.
+[00:31:06.558] Server  LOG     ✓ Compiled in 60ms
+[00:36:27.895] Server  LOG     ✓ Compiled in 47ms
+[00:36:33.434] Server  LOG     ✓ Compiled in 41ms
+[00:36:37.870] Server  LOG     ✓ Compiled in 32ms
+[00:37:12.683] Server  LOG     ✓ Compiled in 48ms
+[00:37:19.382] Server  LOG     ✓ Compiled in 36ms
+[00:37:26.535] Server  LOG     ✓ Compiled in 38ms
+[00:37:38.824] Server  LOG     ✓ Compiled in 45ms
+[00:37:54.258] Server  LOG     ✓ Compiled in 33ms
+[00:37:56.004] Server  LOG     ✓ Compiled in 32ms
+[00:37:58.766] Server  LOG     ✓ Compiled in 26ms
+[00:38:02.215] Server  LOG     ✓ Compiled in 25ms
+[00:38:37.333] Server  LOG     ✓ Compiled in 27ms
+[00:38:43.688] Server  LOG     ✓ Compiled in 39ms
+[00:38:49.818] Server  LOG     ✓ Compiled in 28ms
+[00:38:58.096] Server  LOG     ✓ Compiled in 62ms
+[00:39:00.648] Server  LOG     ✓ Compiled in 38ms
+[00:39:03.285] Server  LOG     ✓ Compiled in 38ms
+[00:40:52.870] Server  LOG     ✓ Compiled in 39ms
+[00:40:55.615] Server  LOG     ✓ Compiled in 27ms
+[00:41:05.103] Server  LOG     ✓ Compiled in 38ms
+[00:41:11.035] Server  LOG     ✓ Compiled in 77ms
+[00:41:22.586] Server  LOG     ✓ Compiled in 44ms
+[00:41:27.351] Server  LOG     ✓ Compiled in 39ms
+[00:41:29.107] Server  LOG     ✓ Compiled in 102ms
+[00:41:34.771] Server  LOG     ✓ Compiled in 50ms
+[00:42:02.497] Server  LOG     ✓ Compiled in 43ms
+[00:42:18.149] Server  LOG     ✓ Compiled in 41ms
+[00:43:34.309] Server  LOG     ✓ Compiled in 36ms
+[00:43:34.368] Browser ERROR   ./src/features/create-ad/ui/CreateAdForm.tsx:24:5
+Parsing ecmascript source code failed
+  22 |   const {
+  23 |     reset
+> 24 |     register,
+     |     ^^^^^^^^
+  25 |     handleSubmit,
+  26 |     formState: { errors },
+  27 |   } = useForm<TypeCreateAdForm>({
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/features/create-ad/ui/CreateAdForm.tsx [Client Component Browser]
+    ./src/app/create/page.tsx [Client Component Browser]
+    ./src/app/create/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/features/create-ad/ui/CreateAdForm.tsx [Client Component SSR]
+    ./src/app/create/page.tsx [Client Component SSR]
+    ./src/app/create/page.tsx [Server Component]
+[00:43:41.475] Server  LOG     ✓ Compiled in 47ms
+[00:49:21.602] Server  LOG     ✓ Compiled in 149ms
+[00:50:52.648] Server  LOG     ✓ Compiled in 28ms
+[00:51:05.135] Server  LOG     ✓ Compiled in 34ms
+[00:51:08.579] Server  LOG     ✓ Compiled in 48ms
+[00:51:12.865] Server  LOG     ✓ Compiled in 38ms
+[00:54:09.063] Server  LOG     ✓ Compiled in 37ms
+[00:54:09.853] Browser ERROR   ./src/widgets/header/ui/Header.tsx:4:15
+Parsing ecmascript source code failed
+  2 |
+  3 | import { logout } from '@/features/auth/authSlice';
+> 4 | import {logout: logoutApi} from '@/features/auth/api/logout'
+    |               ^
+  5 | import LoginModal from '@/features/auth/ui/LoginModal';
+  6 | import { RootState } from '@/shared/store/store';
+  7 | import Link from 'next/link';
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/widgets/header/ui/Header.tsx
+    ./src/app/layout.tsx
+[00:55:02.859] Browser ERROR   ./src/widgets/header/ui/Header.tsx:4:16
+Parsing ecmascript source code failed
+  2 |
+  3 | import { logout } from '@/features/auth/authSlice';
+> 4 | import { logout: logoutApi } from '@/features/auth/api/logout'
+    |                ^
+  5 | import LoginModal from '@/features/auth/ui/LoginModal';
+  6 | import { RootState } from '@/shared/store/store';
+  7 | import Link from 'next/link';
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/widgets/header/ui/Header.tsx
+    ./src/app/layout.tsx
+[00:55:53.218] Server  LOG     ✓ Compiled in 27ms
+[00:55:58.213] Server  LOG     ✓ Compiled in 29ms
+[01:01:24.237] Server  LOG     ✓ Compiled in 26ms
+[01:01:33.749] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 401
+[01:01:38.928] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 401
+[01:01:39.139] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 401
+[01:01:39.319] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 401
+[01:01:39.475] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 401
+[01:01:43.591] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 401
+[01:01:52.529] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2NzQwNDgsImV4cCI6MTc3MzY3NDk0OH0.ECEW8mXG9LuAF5OBbF-oXdB6ry4iq79wRi1R4iYF4xk","user":{"email":"test@test.com","id":"1"}}
+[01:02:23.271] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2NzQwNzksImV4cCI6MTc3MzY3NDk3OX0.Nn4wjypne2-f-CTEg9KdeIB0fe_E66Uwe7EemJa5ZKc","user":{"email":"test@test.com","id":"1"}}
+[01:04:37.071] Server  LOG     ✓ Compiled in 25ms
+[01:04:40.166] Browser LOG     start
+[01:04:48.026] Server  LOG     ✓ Compiled in 49ms
+[01:04:50.189] Browser LOG     start
+[01:04:50.190] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE3NzM2NzQyMjYsImV4cCI6MTc3MzY3NTEyNn0.bvTdIL4rwZk7rqRq-ABBMSU_2A8eCfdoKyv71qq3ghk"}
+[01:05:29.675] Browser LOG     start
+[01:05:29.675] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE3NzM2NzQyNjUsImV4cCI6MTc3MzY3NTE2NX0.rZe0DC0olHoq3fECQ0QpU9iwk_e6ZDh0pQlO6PeXgoU","user":{"id":"1"}}
+[01:07:54.427] Browser LOG     start
+[01:07:54.427] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE3NzM2NzQ0MTAsImV4cCI6MTc3MzY3NTMxMH0.fsEVrBnM83cdt6vTCHLtKJ3wTugKKJhMhZobqu2akNo","user":{"id":"1"}}
+[01:09:03.329] Browser LOG     start
+[01:09:03.330] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzM2NzQ0NzksImV4cCI6MTc3MzY3NTM3OX0.EQyXD8ePX1vxY2cQJn0IQmSxnMOshDTdtOj7op_5_zU","user":{"id":"1"}}
+[01:09:10.741] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2NzQ0ODYsImV4cCI6MTc3MzY3NTM4Nn0.zqrczPySksqcXfNjEGGob9MSxqxsvUT3v_bbcju1IVw","user":{"email":"test@test.com","id":"1"}}
+[01:09:53.813] Browser LOG     start
+[01:09:53.813] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2NzQ1MjksImV4cCI6MTc3MzY3NTQyOX0.m6Iwni9sXGo8DSl_3cL80wG7hCRydQ5MOWU9qq1J1UQ","user":{"email":"test@test.com"}}
+[01:10:11.782] Server  LOG     ✓ Compiled in 27ms
+[01:12:56.876] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 14
+[01:15:10.795] Server  LOG     ✓ Compiled in 46ms
+[01:17:07.914] Server  LOG     ✓ Compiled in 36ms
+[01:17:51.654] Server  LOG     ✓ Compiled in 27ms
+[01:18:02.235] Server  LOG     ✓ Compiled in 35ms
+[01:41:00.635] Server  LOG     ✓ Compiled in 71ms
+[01:41:00.846] Browser ERROR   uncaughtError: ReferenceError: useToggleFavorite is not defined
+[01:41:03.342] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:41:03.827] Server  LOG     ✓ Compiled in 116ms
+[01:41:10.163] Server  LOG     ✓ Compiled in 38ms
+[01:41:40.235] Server  LOG     ✓ Compiled in 37ms
+[01:42:03.898] Server  LOG     ✓ Compiled in 68ms
+[01:42:07.792] Server  LOG     ✓ Compiled in 38ms
+[01:48:52.949] Browser LOG     {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2NzY4NjksImV4cCI6MTc3MzY3Nzc2OX0.saoB8N9dJsbdGkrG3LMVqCieAYpEgEb0yGZo_9a3_mY","user":{"email":"test@test.com","id":"1"}}
+[02:15:18.800] Server  LOG     ✓ Compiled in 44ms
+[02:15:24.514] Browser LOG     {"config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:4000","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/x-www-form-urlencoded"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"/auth/refresh","withCredentials":true,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"data":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2Nzg0NjAsImV4cCI6MTc3MzY3OTM2MH0.JWwd_ZiDm4V2k7Y1gkzY25ei5bSAWQe5ZB-B9iQYn-4","user":{"email":"test@test.com","id":"1"}},"headers":{"content-length":"232","content-type":"application/json; charset=utf-8"},"request":{},"status":200,"statusText":"OK"}
+[02:15:28.199] Browser LOG     {"config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:4000","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/x-www-form-urlencoded"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"/auth/refresh","withCredentials":true,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"data":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJpYXQiOjE3NzM2Nzg0NjQsImV4cCI6MTc3MzY3OTM2NH0.P2MhlC_xvXWtfkvVNPFAgr-QsoJQo7XmT6-GJ-F4CII","user":{"email":"test@test.com","id":"1"}},"headers":{"content-length":"232","content-type":"application/json; charset=utf-8"},"request":{},"status":200,"statusText":"OK"}
+[02:15:36.090] Server  LOG     ✓ Compiled in 30ms
+[02:16:50.812] Server  LOG     ✓ Compiled in 47ms
+[02:34:13.701] Server  LOG     ✓ Compiled in 54ms
+[02:37:02.670] Server  LOG     ✓ Compiled in 157ms
+[02:37:02.858] Browser ERROR   ./src/entities/ad/api/useInfiniteAds.ts:29:21
+Parsing ecmascript source code failed
+  27 |     queryFn: ({ pageParam = 1 }) => getAds({ ...filters, page: pageParam }),
+  28 |     enabled: 
+> 29 |     initialPageParam: 1,
+     |                     ^
+  30 |     getNextPageParam: (lastPage) => {
+  31 |       const { page, limit, total } = lastPage;
+  32 |       const maxPage = Math.ceil(total / limit);
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[02:37:07.859] Browser ERROR   ./src/entities/ad/api/useInfiniteAds.ts:29:21
+Parsing ecmascript source code failed
+  27 |     queryFn: ({ pageParam = 1 }) => getAds({ ...filters, page: pageParam }),
+  28 |     enabled: 
+> 29 |     initialPageParam: 1,
+     |                     ^
+  30 |     getNextPageParam: (lastPage) => {
+  31 |       const { page, limit, total } = lastPage;
+  32 |       const maxPage = Math.ceil(total / limit);
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[02:37:09.848] Browser ERROR   ./src/entities/ad/api/useInfiniteAds.ts:29:21
+Parsing ecmascript source code failed
+  27 |     queryFn: ({ pageParam = 1 }) => getAds({ ...filters, page: pageParam }),
+  28 |     enabled: 
+> 29 |     initialPageParam: 1,
+     |                     ^
+  30 |     getNextPageParam: (lastPage) => {
+  31 |       const { page, limit, total } = lastPage;
+  32 |       const maxPage = Math.ceil(total / limit);
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[02:37:20.857] Browser ERROR   ./src/entities/ad/api/useInfiniteAds.ts:29:21
+Parsing ecmascript source code failed
+  27 |     queryFn: ({ pageParam = 1 }) => getAds({ ...filters, page: pageParam }),
+  28 |     enabled: 
+> 29 |     initialPageParam: 1,
+     |                     ^
+  30 |     getNextPageParam: (lastPage) => {
+  31 |       const { page, limit, total } = lastPage;
+  32 |       const maxPage = Math.ceil(total / limit);
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component Browser]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/entities/ad/api/useInfiniteAds.ts [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Client Component SSR]
+    ./src/entities/ad/ui/AdsList.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[02:40:43.862] Server  LOG     ✓ Compiled in 39ms
+[02:40:44.074] Browser ERROR   uncaughtError: ReferenceError: isFav is not defined
+[02:40:53.177] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:40:53.190] Server  LOG     ✓ Compiled in 74ms
+[02:40:53.856] Browser LOG     {"city":"Moscow","description":"Almost new iPhone 14","favorite":true,"id":"1","image":"https://placehold.co/400","price":700,"title":"iPhone 14"}
+[02:40:53.856] Browser LOG     {"city":"Saint Petersburg","description":"M1 Pro 16GB","favorite":true,"id":"2","image":"https://placehold.co/400","price":1500,"title":"MacBook Pro"}
+[02:40:53.856] Browser LOG     {"city":"Moscow","description":"Almost new iPhone 17","favorite":true,"id":"3","image":"https://placehold.co/400","price":900,"title":"iPhone 17"}
+[02:40:53.856] Browser LOG     {"city":"Kazan","description":"Noise cancelling earbuds","favorite":false,"id":"4","image":"https://placehold.co/400","price":250,"title":"AirPods Pro"}
+[02:40:53.856] Browser LOG     {"city":"Novosibirsk","description":"10.9-inch iPad Air","favorite":false,"id":"5","image":"https://placehold.co/400","price":600,"title":"iPad Air"}
+[02:40:53.856] Browser LOG     {"city":"Moscow","description":"Flagship Samsung phone","favorite":false,"id":"6","image":"https://placehold.co/400","price":650,"title":"Samsung Galaxy S22"}
+[02:40:53.856] Browser LOG     {"city":"Saint Petersburg","description":"Lightweight ultrabook","favorite":false,"id":"7","image":"https://placehold.co/400","price":1200,"title":"Dell XPS 13"}
+[02:40:53.856] Browser LOG     {"city":"Kazan","description":"Wireless noise-canceling headphones","favorite":false,"id":"8","image":"https://placehold.co/400","price":300,"title":"Sony WH-1000XM4"}
+[02:40:53.856] Browser LOG     {"city":"Novosibirsk","description":"Good condition iPhone 13","favorite":false,"id":"9","image":"https://placehold.co/400","price":550,"title":"iPhone 13"}
+[02:40:53.856] Browser LOG     {"city":"Moscow","description":"Apple laptop M2 chip","favorite":false,"id":"10","image":"https://placehold.co/400","price":1300,"title":"MacBook Air M2"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Almost new iPhone 14","favorite":true,"id":"1","image":"https://placehold.co/400","price":700,"title":"iPhone 14"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Saint Petersburg","description":"M1 Pro 16GB","favorite":true,"id":"2","image":"https://placehold.co/400","price":1500,"title":"MacBook Pro"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Almost new iPhone 17","favorite":true,"id":"3","image":"https://placehold.co/400","price":900,"title":"iPhone 17"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Kazan","description":"Noise cancelling earbuds","favorite":false,"id":"4","image":"https://placehold.co/400","price":250,"title":"AirPods Pro"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Novosibirsk","description":"10.9-inch iPad Air","favorite":false,"id":"5","image":"https://placehold.co/400","price":600,"title":"iPad Air"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Flagship Samsung phone","favorite":false,"id":"6","image":"https://placehold.co/400","price":650,"title":"Samsung Galaxy S22"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Saint Petersburg","description":"Lightweight ultrabook","favorite":false,"id":"7","image":"https://placehold.co/400","price":1200,"title":"Dell XPS 13"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Kazan","description":"Wireless noise-canceling headphones","favorite":false,"id":"8","image":"https://placehold.co/400","price":300,"title":"Sony WH-1000XM4"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Novosibirsk","description":"Good condition iPhone 13","favorite":false,"id":"9","image":"https://placehold.co/400","price":550,"title":"iPhone 13"}
+[02:40:53.856] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Apple laptop M2 chip","favorite":false,"id":"10","image":"https://placehold.co/400","price":1300,"title":"MacBook Air M2"}
+[02:40:55.178] Browser LOG     {"city":"Moscow","description":"Almost new iPhone 14","favorite":true,"id":"1","image":"https://placehold.co/400","price":700,"title":"iPhone 14"}
+[02:40:55.179] Browser LOG     {"city":"Saint Petersburg","description":"M1 Pro 16GB","favorite":true,"id":"2","image":"https://placehold.co/400","price":1500,"title":"MacBook Pro"}
+[02:40:55.179] Browser LOG     {"city":"Moscow","description":"Almost new iPhone 17","favorite":true,"id":"3","image":"https://placehold.co/400","price":900,"title":"iPhone 17"}
+[02:40:55.179] Browser LOG     {"city":"Kazan","description":"Noise cancelling earbuds","favorite":false,"id":"4","image":"https://placehold.co/400","price":250,"title":"AirPods Pro"}
+[02:40:55.179] Browser LOG     {"city":"Novosibirsk","description":"10.9-inch iPad Air","favorite":false,"id":"5","image":"https://placehold.co/400","price":600,"title":"iPad Air"}
+[02:40:55.179] Browser LOG     {"city":"Moscow","description":"Flagship Samsung phone","favorite":false,"id":"6","image":"https://placehold.co/400","price":650,"title":"Samsung Galaxy S22"}
+[02:40:55.179] Browser LOG     {"city":"Saint Petersburg","description":"Lightweight ultrabook","favorite":false,"id":"7","image":"https://placehold.co/400","price":1200,"title":"Dell XPS 13"}
+[02:40:55.179] Browser LOG     {"city":"Kazan","description":"Wireless noise-canceling headphones","favorite":false,"id":"8","image":"https://placehold.co/400","price":300,"title":"Sony WH-1000XM4"}
+[02:40:55.179] Browser LOG     {"city":"Novosibirsk","description":"Good condition iPhone 13","favorite":false,"id":"9","image":"https://placehold.co/400","price":550,"title":"iPhone 13"}
+[02:40:55.179] Browser LOG     {"city":"Moscow","description":"Apple laptop M2 chip","favorite":false,"id":"10","image":"https://placehold.co/400","price":1300,"title":"MacBook Air M2"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Almost new iPhone 14","favorite":true,"id":"1","image":"https://placehold.co/400","price":700,"title":"iPhone 14"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Saint Petersburg","description":"M1 Pro 16GB","favorite":true,"id":"2","image":"https://placehold.co/400","price":1500,"title":"MacBook Pro"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Almost new iPhone 17","favorite":true,"id":"3","image":"https://placehold.co/400","price":900,"title":"iPhone 17"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Kazan","description":"Noise cancelling earbuds","favorite":false,"id":"4","image":"https://placehold.co/400","price":250,"title":"AirPods Pro"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Novosibirsk","description":"10.9-inch iPad Air","favorite":false,"id":"5","image":"https://placehold.co/400","price":600,"title":"iPad Air"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Flagship Samsung phone","favorite":false,"id":"6","image":"https://placehold.co/400","price":650,"title":"Samsung Galaxy S22"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Saint Petersburg","description":"Lightweight ultrabook","favorite":false,"id":"7","image":"https://placehold.co/400","price":1200,"title":"Dell XPS 13"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Kazan","description":"Wireless noise-canceling headphones","favorite":false,"id":"8","image":"https://placehold.co/400","price":300,"title":"Sony WH-1000XM4"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Novosibirsk","description":"Good condition iPhone 13","favorite":false,"id":"9","image":"https://placehold.co/400","price":550,"title":"iPhone 13"}
+[02:40:55.179] Browser LOG     [2;38;2;124;124;124m%s[0m {"city":"Moscow","description":"Apple laptop M2 chip","favorite":false,"id":"10","image":"https://placehold.co/400","price":1300,"title":"MacBook Air M2"}
+[02:40:56.763] Server  LOG     ✓ Compiled in 59ms
+[02:40:56.858] Browser LOG     true
+[02:40:56.858] Browser LOG     true
+[02:40:56.858] Browser LOG     true
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:40:56.858] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.405] Server  LOG     ✓ Compiled in 44ms
+[02:41:17.497] Browser LOG     true
+[02:41:17.497] Browser LOG     true
+[02:41:17.497] Browser LOG     true
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:17.497] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[02:41:26.474] Server  LOG     ✓ Compiled in 35ms
+[02:44:04.929] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.047] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.066] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.072] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.082] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.089] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.096] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.131] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.138] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.149] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.160] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.194] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.208] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.220] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.229] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.237] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.245] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.252] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.260] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.266] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.273] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.278] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.864] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.877] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.889] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.899] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.907] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.917] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.925] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.933] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.942] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.955] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.966] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.975] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.987] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:05.996] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.000] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.005] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.011] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.017] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.024] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.029] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.036] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.041] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.046] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.050] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.054] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.067] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.078] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.102] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.115] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.126] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.136] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.142] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.146] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.150] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.157] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.162] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.166] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.169] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.174] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.179] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.186] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.192] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.198] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.205] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.210] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.215] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.218] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.223] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.228] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.233] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.241] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.247] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.253] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.259] Server  ERROR   ⨯ ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.263] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.268] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.271] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.276] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.278] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.283] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:06.285] Server  LOG     ✓ Compiled in 1122ms
+[02:44:06.398] Browser ERROR   ./src/entities/ad/ui/AdsList.tsx:8:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+   6 | import { useDispatch, useSelector } from 'react-redux';
+   7 | import { RootState } from '@/shared/store/store';
+>  8 | import { toggleFavorite } from '@/features/favorites/favoritesSlice';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Link from 'next/link';
+  10 | import { useQueryClient } from '@tanstack/react-query';
+  11 | import { api } from '@/shared/api/client';
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/entities/ad/ui/AdsList.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[02:44:06.398] Browser ERROR   ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[02:44:30.979] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:30.986] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:30.992] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:30.998] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.004] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.011] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.026] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.034] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.041] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.052] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.057] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.061] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.066] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.072] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.076] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.081] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.084] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.089] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.095] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.099] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.103] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.108] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.113] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.117] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.121] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.126] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.130] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.133] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.138] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.141] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.146] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.149] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.153] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.157] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.161] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.165] Server  ERROR   ⨯ ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:31.279] Browser ERROR   ./src/shared/store/store.ts:2:1
+Module not found: Can't resolve '@/features/favorites/favoritesSlice'
+  1 | import { configureStore } from '@reduxjs/toolkit';
+> 2 | import favoritesReducer from '@/features/favorites/favoritesSlice';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import authReducer from '@/features/auth/authSlice';
+  4 |
+  5 | export const store = configureStore({
+
+Import map: aliased to relative './src/features/favorites/favoritesSlice' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/shared/store/store.ts [Client Component Browser]
+    ./src/app/providers.tsx [Client Component Browser]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/shared/store/store.ts [Client Component SSR]
+    ./src/app/providers.tsx [Client Component SSR]
+    ./src/app/providers.tsx [Server Component]
+    ./src/app/layout.tsx [Server Component]
+
+  Server Component:
+    ./src/shared/store/store.ts
+    ./src/shared/api/client.ts
+    ./src/entities/ad/api/getAds.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[02:44:50.268] Server  LOG     ✓ Compiled in 252ms
+[02:45:14.325] Server  LOG     ✓ Compiled in 81ms

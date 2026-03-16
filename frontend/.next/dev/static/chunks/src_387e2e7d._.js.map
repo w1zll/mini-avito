@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/_DEV/mini-avito/frontend/src/shared/api/client.ts"],"sourcesContent":["import axios from 'axios';\r\n\r\nexport const api = axios.create({\r\n  baseURL: 'http://localhost:4000',\r\n  withCredentials: true,\r\n});\r\n"],"names":[],"mappings":";;;;AAAA;;AAEO,MAAM,MAAM,mJAAK,CAAC,MAAM,CAAC;IAC9B,SAAS;IACT,iBAAiB;AACnB"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file:///C:/_DEV/mini-avito/frontend/src/entities/ad/api/getAds.ts"],"sourcesContent":["import { api } from '@/shared/api/client';\r\n\r\nexport type AdsParams = {\r\n  search?: string;\r\n  minPrice?: number;\r\n  maxPrice?: number;\r\n  page?: number;\r\n  limit?: number;\r\n};\r\n\r\nexport const getAds = async (params: AdsParams) => {\r\n  const { data } = await api.get('/ads', { params });\r\n  return data;\r\n};\r\n"],"names":[],"mappings":";;;;AAAA;;AAUO,MAAM,SAAS,OAAO;IAC3B,MAAM,EAAE,IAAI,EAAE,GAAG,MAAM,wIAAG,CAAC,GAAG,CAAC,QAAQ;QAAE;IAAO;IAChD,OAAO;AACT"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/_DEV/mini-avito/frontend/src/entities/ad/api/useAds.ts"],"sourcesContent":["'use client';\r\nimport { useQuery } from '@tanstack/react-query';\r\nimport { AdsParams, getAds } from './getAds';\r\n\r\nexport const useAds = (params: AdsParams) =>\r\n  useQuery({\r\n    queryKey: ['ads', params],\r\n    queryFn: () => getAds(params),\r\n  });\r\n"],"names":[],"mappings":";;;;AACA;AACA;;AAFA;;;AAIO,MAAM,SAAS,CAAC;;IACrB,OAAA,IAAA,0LAAQ,EAAC;QACP,UAAU;YAAC;YAAO;SAAO;QACzB,OAAO;+BAAE,IAAM,IAAA,mJAAM,EAAC;;IACxB;AAAC;GAJU;;QACX,0LAAQ"}}]
+}
