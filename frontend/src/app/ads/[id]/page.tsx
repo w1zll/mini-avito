@@ -1,16 +1,7 @@
 'use client';
 
 import { useAd } from '@/entities/ad/api/useAd';
-import { api } from '@/shared/api/client';
-import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'next/navigation';
-
-interface Ad {
-  id: string;
-  title: string;
-  price: number;
-  description: string;
-}
 
 export default function AdPage() {
   const params = useParams();
