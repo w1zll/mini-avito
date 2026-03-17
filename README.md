@@ -15,8 +15,8 @@
 
 **Frontend:**
 
-- Next.js 13 (App Router)  
-- React 18 + TypeScript  
+- Next.js 16 (App Router)  
+- React 19 + TypeScript  
 - Redux Toolkit (auth state)  
 - TanStack Query (React Query)  
 - Axios (с interceptors для JWT)  
