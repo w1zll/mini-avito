@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const optionalAuth = require('../middleware/optionalAuth');
 
 const router = express.Router();
 
@@ -17,12 +18,10 @@ const writeAds = (ads) => {
   fs.writeFileSync(filePath, JSON.stringify(ads, null, 2));
 };
 
-const optionalAuth = require('../middleware/optionalAuth');
 // GET /ads Получение списка объявлений
 router.get('/', optionalAuth, (req, res) => {
   let ads = readAds();
   const favorites = readFavorites();
-  // console.log(favorites);
 
   const { search, minPrice, maxPrice } = req.query;
 
@@ -46,7 +45,6 @@ router.get('/', optionalAuth, (req, res) => {
   const end = start + limit;
   let adsWithFavorites = ads;
   if (req.user) {
-    // console.log(req.user);
     const userFavorites = favorites
       .filter((f) => f.userId === req.user.id)
       .map((f) => f.adId);
@@ -63,8 +61,6 @@ router.get('/', optionalAuth, (req, res) => {
   }
 
   const paginatedAds = adsWithFavorites.slice(start, end);
-  // console.log(paginatedAds);
-
   res.json({
     items: paginatedAds,
     total: ads.length,
@@ -115,22 +111,5 @@ router.delete('/:id', (req, res) => {
 
   res.json({ success: true });
 });
-
-// POST /ads/favorites Добавление объявления в избранное
-// router.post('/favorites', (req, res) => {
-//   const ads = readAds();
-
-//   const ad = ads.find((a) => a.id === req.body.id);
-
-//   if (!ad) {
-//     return res.status(404).json({ message: 'Ad not found' });
-//   }
-
-//   ad.isFavorite = true;
-
-//   writeAds(ads);
-
-//   res.json(ad);
-// });
 
 module.exports = router;

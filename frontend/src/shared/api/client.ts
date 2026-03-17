@@ -2,7 +2,6 @@ import axios from 'axios';
 import { store } from '../store/store';
 import {
   logout,
-  loginSuccess,
   setAccessToken,
 } from '@/features/auth/authSlice';
 

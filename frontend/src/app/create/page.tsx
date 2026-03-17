@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 const CreatePage = () => {
   const user = useSelector((state: RootState) => state.auth.user);
 
-  if (!user) return <p>Not authorized</p>;
+  if (!user) return <p>Авторизуйтесь, что бы создать объявление</p>;
   return <CreateAdForm />;
 };
 

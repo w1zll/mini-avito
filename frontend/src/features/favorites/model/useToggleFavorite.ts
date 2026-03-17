@@ -1,5 +1,6 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { addFavorite, removeFavorite } from '../api/toggleFavorite';
+import { toast } from 'sonner';
 
 export const useToggleFavorite = () => {
   const queryClient = useQueryClient();
@@ -12,19 +13,19 @@ export const useToggleFavorite = () => {
       adId: string;
       isFavorite: boolean;
     }) => {
-      if (isFavorite) {
-        return removeFavorite(adId);
-      }
+      if (isFavorite) return removeFavorite(adId);
       return addFavorite(adId);
     },
+
     onMutate: async ({ adId }) => {
       await queryClient.cancelQueries({ queryKey: ['ads'] });
 
-      const prev = queryClient.getQueryData(['ads']);
+      const previousQueries = queryClient.getQueriesData({
+        queryKey: ['ads'],
+      });
 
-      queryClient.setQueryData(['ads'], (old: any) => {
-        if (!old) return old;
-
+      queryClient.setQueriesData({ queryKey: ['ads'] }, (old: any) => {
+        if (!old?.pages) return old;
         return {
           ...old,
           pages: old.pages.map((page: any) => ({
@@ -35,14 +36,16 @@ export const useToggleFavorite = () => {
           })),
         };
       });
-      return { prev };
-    },
-    onError: (_err, _vars, context) => {
-      queryClient.setQueryData(['ads'], context?.prev);
+
+      return { previousQueries };
     },
 
-    onSettled: () => {
-      queryClient.invalidateQueries({ queryKey: ['ads'] });
+    onError: (_err, _vars, context) => {
+      context?.previousQueries.forEach(([queryKey, data]) => {
+        queryClient.setQueryData(queryKey as string[], data);
+      });
+
+      toast.error('Не удалось обновить избранное. Попробуйте ещё раз.');
     },
   });
 };

@@ -22,7 +22,6 @@ router.get('/', authMiddleware, (req, res) => {
 
 router.post('/:adId', authMiddleware, (req, res) => {
   const favorites = readFavorites();
-  console.log(req.user);
   const exists = favorites.find(
     (f) => f.userId === req.user.id && f.adId === req.params.adId,
   );

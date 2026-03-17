@@ -2,885 +2,422 @@
   {
     "id": "1",
     "title": "iPhone 14",
-    "price": 700,
-    "city": "Moscow",
-    "description": "Almost new iPhone 14",
+    "price": 63000,
+    "city": "Москва",
+    "description": "Почти новый iPhone 14",
     "image": "https://placehold.co/400"
   },
   {
     "id": "2",
     "title": "MacBook Pro",
-    "price": 1500,
-    "city": "Saint Petersburg",
-    "description": "M1 Pro 16GB",
+    "price": 135000,
+    "city": "Санкт-Петербург",
+    "description": "M1 Pro, 16 ГБ оперативной памяти",
     "image": "https://placehold.co/400"
   },
   {
     "id": "3",
     "title": "iPhone 17",
-    "price": 900,
-    "city": "Moscow",
-    "description": "Almost new iPhone 17",
+    "price": 81000,
+    "city": "Москва",
+    "description": "Почти новый iPhone 17",
     "image": "https://placehold.co/400"
   },
   {
     "id": "4",
     "title": "AirPods Pro",
-    "price": 250,
-    "city": "Kazan",
-    "description": "Noise cancelling earbuds",
+    "price": 22500,
+    "city": "Казань",
+    "description": "Наушники с шумоподавлением",
     "image": "https://placehold.co/400"
   },
   {
     "id": "5",
     "title": "iPad Air",
-    "price": 600,
-    "city": "Novosibirsk",
-    "description": "10.9-inch iPad Air",
+    "price": 54000,
+    "city": "Новосибирск",
+    "description": "iPad Air 10.9 дюйма",
     "image": "https://placehold.co/400"
   },
   {
     "id": "6",
     "title": "Samsung Galaxy S22",
-    "price": 650,
-    "city": "Moscow",
-    "description": "Flagship Samsung phone",
+    "price": 58500,
+    "city": "Москва",
+    "description": "Флагманский смартфон Samsung",
     "image": "https://placehold.co/400"
   },
   {
     "id": "7",
     "title": "Dell XPS 13",
-    "price": 1200,
-    "city": "Saint Petersburg",
-    "description": "Lightweight ultrabook",
+    "price": 108000,
+    "city": "Санкт-Петербург",
+    "description": "Лёгкий ультрабук",
     "image": "https://placehold.co/400"
   },
   {
     "id": "8",
     "title": "Sony WH-1000XM4",
-    "price": 300,
-    "city": "Kazan",
-    "description": "Wireless noise-canceling headphones",
+    "price": 27000,
+    "city": "Казань",
+    "description": "Беспроводные наушники с шумоподавлением",
     "image": "https://placehold.co/400"
   },
   {
     "id": "9",
     "title": "iPhone 13",
-    "price": 550,
-    "city": "Novosibirsk",
-    "description": "Good condition iPhone 13",
+    "price": 49500,
+    "city": "Новосибирск",
+    "description": "В хорошем состоянии iPhone 13",
     "image": "https://placehold.co/400"
   },
   {
     "id": "10",
     "title": "MacBook Air M2",
-    "price": 1300,
-    "city": "Moscow",
-    "description": "Apple laptop M2 chip",
+    "price": 117000,
+    "city": "Москва",
+    "description": "Ноутбук Apple с чипом M2",
     "image": "https://placehold.co/400"
   },
   {
     "id": "11",
     "title": "iPad Pro",
-    "price": 1000,
-    "city": "Saint Petersburg",
-    "description": "12.9-inch iPad Pro",
+    "price": 90000,
+    "city": "Санкт-Петербург",
+    "description": "iPad Pro 12.9 дюйма",
     "image": "https://placehold.co/400"
   },
   {
     "id": "12",
     "title": "Galaxy Buds Pro",
-    "price": 200,
-    "city": "Kazan",
-    "description": "Samsung wireless earbuds",
+    "price": 18000,
+    "city": "Казань",
+    "description": "Беспроводные наушники Samsung",
     "image": "https://placehold.co/400"
   },
   {
     "id": "13",
     "title": "iPhone 12",
-    "price": 450,
-    "city": "Novosibirsk",
-    "description": "Used iPhone 12",
+    "price": 40500,
+    "city": "Новосибирск",
+    "description": "Б/у iPhone 12",
     "image": "https://placehold.co/400"
   },
   {
     "id": "14",
     "title": "HP Spectre x360",
-    "price": 1100,
-    "city": "Moscow",
-    "description": "Convertible laptop",
+    "price": 99000,
+    "city": "Москва",
+    "description": "Трансформируемый ноутбук",
     "image": "https://placehold.co/400"
   },
   {
     "id": "15",
     "title": "iPad Mini",
-    "price": 400,
-    "city": "Saint Petersburg",
-    "description": "Compact iPad mini",
+    "price": 36000,
+    "city": "Санкт-Петербург",
+    "description": "Компактный iPad mini",
     "image": "https://placehold.co/400"
   },
   {
     "id": "16",
     "title": "OnePlus 10",
-    "price": 600,
-    "city": "Kazan",
-    "description": "Fast Android phone",
+    "price": 54000,
+    "city": "Казань",
+    "description": "Быстрый Android смартфон",
     "image": "https://placehold.co/400"
   },
   {
     "id": "17",
     "title": "MacBook Pro 16",
-    "price": 2000,
-    "city": "Novosibirsk",
-    "description": "High-end MacBook Pro",
+    "price": 180000,
+    "city": "Новосибирск",
+    "description": "Мощный MacBook Pro",
     "image": "https://placehold.co/400"
   },
   {
     "id": "18",
     "title": "AirPods 2",
-    "price": 150,
-    "city": "Moscow",
-    "description": "Older AirPods version",
+    "price": 13500,
+    "city": "Москва",
+    "description": "Старая версия AirPods",
     "image": "https://placehold.co/400"
   },
   {
     "id": "19",
     "title": "Samsung Galaxy Tab S8",
-    "price": 700,
-    "city": "Saint Petersburg",
-    "description": "High-end Samsung tablet",
+    "price": 63000,
+    "city": "Санкт-Петербург",
+    "description": "Премиальный планшет Samsung",
     "image": "https://placehold.co/400"
   },
   {
     "id": "20",
     "title": "iPhone SE",
-    "price": 350,
-    "city": "Kazan",
-    "description": "Compact iPhone SE",
+    "price": 31500,
+    "city": "Казань",
+    "description": "Компактный iPhone SE",
     "image": "https://placehold.co/400"
   },
   {
     "id": "21",
     "title": "MacBook Air M1",
-    "price": 1000,
-    "city": "Novosibirsk",
-    "description": "Apple laptop M1 chip",
+    "price": 90000,
+    "city": "Новосибирск",
+    "description": "Ноутбук Apple с чипом M1",
     "image": "https://placehold.co/400"
   },
   {
     "id": "22",
     "title": "Sony WF-1000XM4",
-    "price": 220,
-    "city": "Moscow",
-    "description": "True wireless earbuds",
+    "price": 19800,
+    "city": "Москва",
+    "description": "Полностью беспроводные наушники",
     "image": "https://placehold.co/400"
   },
   {
     "id": "23",
     "title": "iPhone 11",
-    "price": 400,
-    "city": "Saint Petersburg",
-    "description": "Used iPhone 11",
+    "price": 36000,
+    "city": "Санкт-Петербург",
+    "description": "Б/у iPhone 11",
     "image": "https://placehold.co/400"
   },
   {
     "id": "24",
     "title": "Lenovo ThinkPad X1",
-    "price": 1200,
-    "city": "Kazan",
-    "description": "Business ultrabook",
+    "price": 108000,
+    "city": "Казань",
+    "description": "Бизнес-ультрабук",
     "image": "https://placehold.co/400"
   },
   {
     "id": "25",
     "title": "iPad 10th Gen",
-    "price": 500,
-    "city": "Novosibirsk",
-    "description": "Latest iPad model",
+    "price": 45000,
+    "city": "Новосибирск",
+    "description": "Последняя модель iPad",
     "image": "https://placehold.co/400"
   },
   {
     "id": "26",
     "title": "Google Pixel 7",
-    "price": 650,
-    "city": "Moscow",
-    "description": "Latest Pixel phone",
+    "price": 58500,
+    "city": "Москва",
+    "description": "Последний смартфон Pixel",
     "image": "https://placehold.co/400"
   },
   {
     "id": "27",
     "title": "MacBook Pro M1",
-    "price": 1400,
-    "city": "Saint Petersburg",
-    "description": "Apple MacBook Pro M1",
+    "price": 126000,
+    "city": "Санкт-Петербург",
+    "description": "MacBook Pro с чипом M1",
     "image": "https://placehold.co/400"
   },
   {
     "id": "28",
     "title": "Bose QuietComfort 45",
-    "price": 320,
-    "city": "Kazan",
-    "description": "Noise cancelling headphones",
+    "price": 28800,
+    "city": "Казань",
+    "description": "Наушники с шумоподавлением",
     "image": "https://placehold.co/400"
   },
   {
     "id": "29",
     "title": "iPhone XR",
-    "price": 300,
-    "city": "Novosibirsk",
-    "description": "Affordable iPhone XR",
+    "price": 27000,
+    "city": "Новосибирск",
+    "description": "Доступный iPhone XR",
     "image": "https://placehold.co/400"
   },
   {
     "id": "30",
     "title": "HP Envy 15",
-    "price": 1150,
-    "city": "Moscow",
-    "description": "Powerful laptop for work",
+    "price": 103500,
+    "city": "Москва",
+    "description": "Мощный ноутбук для работы",
     "image": "https://placehold.co/400"
   },
   {
     "id": "31",
     "title": "iPad Air 2",
-    "price": 350,
-    "city": "Saint Petersburg",
-    "description": "Older iPad Air",
+    "price": 31500,
+    "city": "Санкт-Петербург",
+    "description": "Старый iPad Air",
     "image": "https://placehold.co/400"
   },
   {
     "id": "32",
     "title": "Samsung Galaxy S21",
-    "price": 550,
-    "city": "Kazan",
-    "description": "Previous-gen Samsung phone",
+    "price": 49500,
+    "city": "Казань",
+    "description": "Смартфон прошлого поколения",
     "image": "https://placehold.co/400"
   },
   {
     "id": "33",
     "title": "MacBook Pro 13",
-    "price": 1500,
-    "city": "Novosibirsk",
-    "description": "MacBook Pro 13-inch",
+    "price": 135000,
+    "city": "Новосибирск",
+    "description": "MacBook Pro 13 дюймов",
     "image": "https://placehold.co/400"
   },
   {
     "id": "34",
     "title": "AirPods Max",
-    "price": 600,
-    "city": "Moscow",
-    "description": "Premium Apple headphones",
+    "price": 54000,
+    "city": "Москва",
+    "description": "Премиальные наушники Apple",
     "image": "https://placehold.co/400"
   },
   {
     "id": "35",
     "title": "iPhone 15",
-    "price": 850,
-    "city": "Saint Petersburg",
-    "description": "Latest iPhone 15",
+    "price": 76500,
+    "city": "Санкт-Петербург",
+    "description": "Новый iPhone 15",
     "image": "https://placehold.co/400"
   },
   {
     "id": "36",
     "title": "Lenovo Yoga 9i",
-    "price": 1250,
-    "city": "Kazan",
-    "description": "Convertible laptop",
+    "price": 112500,
+    "city": "Казань",
+    "description": "Ноутбук-трансформер",
     "image": "https://placehold.co/400"
   },
   {
     "id": "37",
     "title": "iPad Pro 11",
-    "price": 900,
-    "city": "Novosibirsk",
-    "description": "Smaller iPad Pro",
+    "price": 81000,
+    "city": "Новосибирск",
+    "description": "Компактный iPad Pro",
     "image": "https://placehold.co/400"
   },
   {
     "id": "38",
     "title": "Google Pixel 6",
-    "price": 500,
-    "city": "Moscow",
-    "description": "Google smartphone",
+    "price": 45000,
+    "city": "Москва",
+    "description": "Смартфон Google",
     "image": "https://placehold.co/400"
   },
   {
     "id": "39",
     "title": "MacBook Air 2020",
-    "price": 1050,
-    "city": "Saint Petersburg",
-    "description": "MacBook Air older model",
+    "price": 94500,
+    "city": "Санкт-Петербург",
+    "description": "Старая модель MacBook Air",
     "image": "https://placehold.co/400"
   },
   {
     "id": "40",
     "title": "Sony WH-CH710N",
-    "price": 180,
-    "city": "Kazan",
-    "description": "Wireless headphones",
+    "price": 16200,
+    "city": "Казань",
+    "description": "Беспроводные наушники",
     "image": "https://placehold.co/400"
   },
   {
     "id": "41",
     "title": "iPhone 16",
-    "price": 900,
-    "city": "Novosibirsk",
-    "description": "Almost new iPhone 16",
+    "price": 81000,
+    "city": "Новосибирск",
+    "description": "Почти новый iPhone 16",
     "image": "https://placehold.co/400"
   },
   {
     "id": "42",
     "title": "Dell Inspiron 15",
-    "price": 800,
-    "city": "Moscow",
-    "description": "Budget laptop",
+    "price": 72000,
+    "city": "Москва",
+    "description": "Бюджетный ноутбук",
     "image": "https://placehold.co/400"
   },
   {
     "id": "43",
     "title": "iPad 9",
-    "price": 400,
-    "city": "Saint Petersburg",
-    "description": "Standard iPad model",
+    "price": 36000,
+    "city": "Санкт-Петербург",
+    "description": "Стандартный iPad",
     "image": "https://placehold.co/400"
   },
   {
     "id": "44",
     "title": "Samsung Galaxy Z Fold4",
-    "price": 1800,
-    "city": "Kazan",
-    "description": "Foldable Samsung phone",
+    "price": 162000,
+    "city": "Казань",
+    "description": "Складной смартфон Samsung",
     "image": "https://placehold.co/400"
   },
   {
     "id": "45",
     "title": "MacBook Pro 14",
-    "price": 1900,
-    "city": "Novosibirsk",
-    "description": "New MacBook Pro",
+    "price": 171000,
+    "city": "Новосибирск",
+    "description": "Новый MacBook Pro",
     "image": "https://placehold.co/400"
   },
   {
     "id": "46",
     "title": "AirPods 3",
-    "price": 180,
-    "city": "Moscow",
-    "description": "Latest AirPods version",
+    "price": 16200,
+    "city": "Москва",
+    "description": "Новая версия AirPods",
     "image": "https://placehold.co/400"
   },
   {
     "id": "47",
     "title": "iPhone 12 Pro",
-    "price": 600,
-    "city": "Saint Petersburg",
-    "description": "iPhone 12 Pro in good condition",
+    "price": 54000,
+    "city": "Санкт-Петербург",
+    "description": "iPhone 12 Pro в хорошем состоянии",
     "image": "https://placehold.co/400"
   },
   {
     "id": "48",
     "title": "Asus ROG Zephyrus",
-    "price": 1600,
-    "city": "Kazan",
-    "description": "Gaming laptop",
+    "price": 144000,
+    "city": "Казань",
+    "description": "Игровой ноутбук",
     "image": "https://placehold.co/400"
   },
   {
     "id": "49",
     "title": "iPad Mini 6",
-    "price": 450,
-    "city": "Novosibirsk",
-    "description": "Latest iPad Mini",
+    "price": 40500,
+    "city": "Новосибирск",
+    "description": "Последний iPad Mini",
     "image": "https://placehold.co/400"
   },
   {
     "id": "50",
     "title": "Samsung Galaxy A53",
-    "price": 350,
-    "city": "Moscow",
-    "description": "Mid-range Samsung phone",
+    "price": 31500,
+    "city": "Москва",
+    "description": "Смартфон среднего класса Samsung",
     "image": "https://placehold.co/400"
   },
   {
-    "id": "51",
-    "title": "iPhone 14",
-    "price": 700,
-    "city": "Moscow",
-    "description": "Almost new iPhone 14",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "52",
-    "title": "MacBook Pro",
-    "price": 1500,
-    "city": "Saint Petersburg",
-    "description": "M1 Pro 16GB",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "53",
-    "title": "iPhone 17",
-    "price": 900,
-    "city": "Moscow",
-    "description": "Almost new iPhone 17",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "54",
-    "title": "AirPods Pro",
-    "price": 250,
-    "city": "Kazan",
-    "description": "Noise cancelling earbuds",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "55",
-    "title": "iPad Air",
-    "price": 600,
-    "city": "Novosibirsk",
-    "description": "10.9-inch iPad Air",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "56",
-    "title": "Samsung Galaxy S22",
-    "price": 650,
-    "city": "Moscow",
-    "description": "Flagship Samsung phone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "57",
-    "title": "Dell XPS 13",
-    "price": 1200,
-    "city": "Saint Petersburg",
-    "description": "Lightweight ultrabook",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "58",
-    "title": "Sony WH-1000XM4",
-    "price": 300,
-    "city": "Kazan",
-    "description": "Wireless noise-canceling headphones",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "59",
-    "title": "iPhone 13",
-    "price": 550,
-    "city": "Novosibirsk",
-    "description": "Good condition iPhone 13",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "60",
-    "title": "MacBook Air M2",
-    "price": 1300,
-    "city": "Moscow",
-    "description": "Apple laptop M2 chip",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "61",
-    "title": "iPad Pro",
-    "price": 1000,
-    "city": "Saint Petersburg",
-    "description": "12.9-inch iPad Pro",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "62",
-    "title": "Galaxy Buds Pro",
-    "price": 200,
-    "city": "Kazan",
-    "description": "Samsung wireless earbuds",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "63",
-    "title": "iPhone 12",
-    "price": 450,
-    "city": "Novosibirsk",
-    "description": "Used iPhone 12",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "14",
-    "title": "HP Spectre x360",
-    "price": 1100,
-    "city": "Moscow",
-    "description": "Convertible laptop",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "65",
-    "title": "iPad Mini",
-    "price": 400,
-    "city": "Saint Petersburg",
-    "description": "Compact iPad mini",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "66",
-    "title": "OnePlus 10",
-    "price": 600,
-    "city": "Kazan",
-    "description": "Fast Android phone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "67",
-    "title": "MacBook Pro 16",
-    "price": 2000,
-    "city": "Novosibirsk",
-    "description": "High-end MacBook Pro",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "68",
-    "title": "AirPods 2",
-    "price": 150,
-    "city": "Moscow",
-    "description": "Older AirPods version",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "69",
-    "title": "Samsung Galaxy Tab S8",
-    "price": 700,
-    "city": "Saint Petersburg",
-    "description": "High-end Samsung tablet",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "70",
-    "title": "iPhone SE",
-    "price": 350,
-    "city": "Kazan",
-    "description": "Compact iPhone SE",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "71",
-    "title": "MacBook Air M1",
-    "price": 1000,
-    "city": "Novosibirsk",
-    "description": "Apple laptop M1 chip",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "72",
-    "title": "Sony WF-1000XM4",
-    "price": 220,
-    "city": "Moscow",
-    "description": "True wireless earbuds",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "73",
-    "title": "iPhone 11",
-    "price": 400,
-    "city": "Saint Petersburg",
-    "description": "Used iPhone 11",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "74",
-    "title": "Lenovo ThinkPad X1",
-    "price": 1200,
-    "city": "Kazan",
-    "description": "Business ultrabook",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "75",
-    "title": "iPad 10th Gen",
-    "price": 500,
-    "city": "Novosibirsk",
-    "description": "Latest iPad model",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "76",
-    "title": "Google Pixel 7",
-    "price": 650,
-    "city": "Moscow",
-    "description": "Latest Pixel phone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "77",
-    "title": "MacBook Pro M1",
-    "price": 1400,
-    "city": "Saint Petersburg",
-    "description": "Apple MacBook Pro M1",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "78",
-    "title": "Bose QuietComfort 45",
-    "price": 320,
-    "city": "Kazan",
-    "description": "Noise cancelling headphones",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "79",
-    "title": "iPhone XR",
-    "price": 300,
-    "city": "Novosibirsk",
-    "description": "Affordable iPhone XR",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "80",
-    "title": "HP Envy 15",
-    "price": 1150,
-    "city": "Moscow",
-    "description": "Powerful laptop for work",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "81",
-    "title": "iPad Air 2",
-    "price": 350,
-    "city": "Saint Petersburg",
-    "description": "Older iPad Air",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "82",
-    "title": "Samsung Galaxy S21",
-    "price": 550,
-    "city": "Kazan",
-    "description": "Previous-gen Samsung phone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "83",
-    "title": "MacBook Pro 13",
-    "price": 1500,
-    "city": "Novosibirsk",
-    "description": "MacBook Pro 13-inch",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "84",
-    "title": "AirPods Max",
-    "price": 600,
-    "city": "Moscow",
-    "description": "Premium Apple headphones",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "85",
-    "title": "iPhone 15",
-    "price": 850,
-    "city": "Saint Petersburg",
-    "description": "Latest iPhone 15",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "86",
-    "title": "Lenovo Yoga 9i",
-    "price": 1250,
-    "city": "Kazan",
-    "description": "Convertible laptop",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "87",
-    "title": "iPad Pro 11",
-    "price": 900,
-    "city": "Novosibirsk",
-    "description": "Smaller iPad Pro",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "88",
-    "title": "Google Pixel 6",
-    "price": 500,
-    "city": "Moscow",
-    "description": "Google smartphone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "89",
-    "title": "MacBook Air 2020",
-    "price": 1050,
-    "city": "Saint Petersburg",
-    "description": "MacBook Air older model",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "90",
-    "title": "Sony WH-CH710N",
-    "price": 180,
-    "city": "Kazan",
-    "description": "Wireless headphones",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "91",
-    "title": "iPhone 16",
-    "price": 900,
-    "city": "Novosibirsk",
-    "description": "Almost new iPhone 16",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "92",
-    "title": "Dell Inspiron 15",
-    "price": 800,
-    "city": "Moscow",
-    "description": "Budget laptop",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "93",
-    "title": "iPad 9",
-    "price": 400,
-    "city": "Saint Petersburg",
-    "description": "Standard iPad model",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "94",
-    "title": "Samsung Galaxy Z Fold4",
-    "price": 1800,
-    "city": "Kazan",
-    "description": "Foldable Samsung phone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "95",
-    "title": "MacBook Pro 14",
-    "price": 1900,
-    "city": "Novosibirsk",
-    "description": "New MacBook Pro",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "96",
-    "title": "AirPods 3",
-    "price": 180,
-    "city": "Moscow",
-    "description": "Latest AirPods version",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "97",
-    "title": "iPhone 12 Pro",
-    "price": 600,
-    "city": "Saint Petersburg",
-    "description": "iPhone 12 Pro in good condition",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "98",
-    "title": "Asus ROG Zephyrus",
-    "price": 1600,
-    "city": "Kazan",
-    "description": "Gaming laptop",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "99",
-    "title": "iPad Mini 6",
-    "price": 450,
-    "city": "Novosibirsk",
-    "description": "Latest iPad Mini",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "100",
-    "title": "Samsung Galaxy A53",
-    "price": 350,
-    "city": "Moscow",
-    "description": "Mid-range Samsung phone",
-    "image": "https://placehold.co/400"
-  },
-  {
-    "id": "1773672237930",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
+    "id": "1773761934642",
+    "title": "123",
+    "price": 1,
+    "description": "123",
     "userId": "1"
   },
   {
-    "id": "1773672882720",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
+    "id": "1773762206350",
+    "title": "1123",
+    "price": 1123,
+    "description": "123",
     "userId": "1"
   },
   {
-    "id": "1773672883477",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672884322",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672884811",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672884822",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672885239",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672885247",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672885254",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672885302",
-    "title": "title",
-    "price": 120,
-    "description": "desc",
-    "userId": "1"
-  },
-  {
-    "id": "1773672961339",
-    "title": "asf",
-    "price": 1234,
-    "description": "asdf",
-    "userId": "1"
-  },
-  {
-    "id": "1773680922249",
-    "title": "tesdg",
-    "price": 412,
-    "description": "sdferg",
+    "id": "1773762220377",
+    "title": "133",
+    "price": 123,
+    "description": "123",
     "userId": "1"
   }
 ]
