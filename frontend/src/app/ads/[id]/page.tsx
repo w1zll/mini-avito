@@ -1,21 +1,31 @@
-'use client';
+import { ClientPage } from './ClientPage';
 
-import { useAd } from '@/entities/ad/api/useAd';
-import { useParams } from 'next/navigation';
+export const revalidate = 5 * 60;
 
-export default function AdPage() {
-  const params = useParams();
-  const id = params.id as string;
-  const { data, isLoading } = useAd(id);
+export default async function AdPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
 
-  if (isLoading) return <div>Loading...</div>;
-  if (!data) return <div>Not found</div>;
+  let data;
+  let error = null;
+  try {
+    const result = await fetch(`http://localhost:4000/ads/${id}`, {
+      next: { revalidate },
+    });
+    data = await result.json();
+  } catch (err) {
+    error = 'Ошибка загрузки объявления';
+  }
 
   return (
-    <div>
-      <h1>{data.title}</h1>
-      <p>{data.price}</p>
-      <p>{data.description}</p>
-    </div>
+    <ClientPage
+      title={data?.title}
+      description={data?.description}
+      price={data?.price}
+      error={error}
+    />
   );
 }
